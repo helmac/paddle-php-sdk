@@ -1,7 +1,11 @@
 {
-  "name": "paddlehq/paddle-php-sdk",
-  "description": "Paddle's PHP SDK for Paddle Billing.",
-  "keywords": ["paddle", "sdk", "php"],
+  "name": "helmac/paddle-php71-sdk",
+  "description": "Paddle's PHP SDK for Paddle Billing. php 7.1",
+  "keywords": [
+    "paddle",
+    "sdk",
+    "php"
+  ],
   "homepage": "https://developer.paddle.com/api-reference/overview",
   "license": "Apache-2.0",
   "authors": [
@@ -12,7 +16,7 @@
   ],
   "type": "library",
   "require": {
-    "php": "^8.1",
+    "php": ">=7.1",
     "ext-json": "*",
     "ext-mbstring": "*",
     "myclabs/php-enum": "^1.8",
@@ -25,9 +29,9 @@
     "psr/http-factory": "^1.0",
     "psr/http-factory-implementation": "^1.0",
     "psr/log": "^1.0 || ^2.0 || ^3.0",
-    "symfony/property-access": "^5.4 || ^6.3 || ^7.0",
-    "symfony/serializer": "^5.4 || ^6.3 || ^7.0",
-    "symfony/uid": "^5.4 || ^6.3 || ^7.0"
+    "symfony/property-access": "^3.4.49",
+    "jms/serializer-bundle": "^1.0",
+    "not-empty/ulid-php-lib": "^1.0.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.49",
@@ -58,6 +62,5 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "optimize-autoloader": true
+  "prefer-stable": true
 }
